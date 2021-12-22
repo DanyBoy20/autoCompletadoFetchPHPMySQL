@@ -38,6 +38,7 @@ const identificador = (event) => {
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const datos = new FormData(form);
+  console.log(datos);
   // const datos = new FormData();
   // datos.append("fileInput", fileInput.files[0]); // si deseamos subir archivos
   fetch('FetchAutoCompleteRecibir.php', { // hacemos fetch y lo enviamos
