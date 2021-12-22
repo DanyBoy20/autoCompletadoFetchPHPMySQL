@@ -9,6 +9,7 @@ function openIndexedDBDatabase() {
   });
 }
 
+
 // Asynchronously fetch some json data
 function getJsonAsync(url) {
   return new Promise(function (resolve, reject) {

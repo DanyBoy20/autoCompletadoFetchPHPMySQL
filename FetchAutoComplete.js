@@ -49,3 +49,4 @@ form.addEventListener('submit', (e) => {
   .then(data=>console.log(data)) // es la respuesta que viene del servidor
   .catch(console.error)
 })
+
